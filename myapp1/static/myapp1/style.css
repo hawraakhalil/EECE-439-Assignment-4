@@ -1,0 +1,13 @@
+.navbar-custom { 
+  background-color: #ec027f !important;  /* pink overrides bg-secondary */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #ffffff !important;             /* make text readable */
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link:focus {
+  color: #ffe0f0 !important;
+}

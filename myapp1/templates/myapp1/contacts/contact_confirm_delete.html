@@ -1,0 +1,14 @@
+<!-- mysite1/myapp1/templates/myapp1/contacts/contact_confirm_delete.html -->
+{% extends "myapp1/base.html" %}
+{% block title %}Delete {{ contact.name }}{% endblock %}
+{% block content %}
+<h1 class="mb-3">Delete contact</h1>
+<div class="alert alert-warning">
+  Are you sure you want to delete <strong>{{ contact.name }}</strong> ({{ contact.email }})?
+</div>
+<form method="post">
+  {% csrf_token %}
+  <button class="btn btn-danger">Yes, delete</button>
+  <a class="btn btn-outline-secondary" href="{% url 'contact_detail' contact.pk %}">Cancel</a>
+</form>
+{% endblock %}
