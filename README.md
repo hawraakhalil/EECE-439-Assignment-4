@@ -139,21 +139,13 @@ The Contact model includes the following fields:
 
 ## Development Notes
 
-This project is part of EECE 439 coursework for Fall 2025 semester. The application demonstrates:
+This project is part of EECE 439 coursework for Fall 2025 semester. This is the deliverable for assignment 4. The application demonstrates:
 - Django MVT (Model-View-Template) architecture
 - Form handling and validation
 - Database operations and migrations
 - Template inheritance and static file serving
 - URL routing and view functions
 
-## Contributing
-
-When making changes:
-1. Create and apply migrations for model changes: `python manage.py makemigrations`
-2. Run migrations: `python manage.py migrate`
-3. Test functionality thoroughly
-4. Update this README if adding new features
-
 ## License
 
-This project is for educational purposes as part of EECE 439 coursework. This is the deliverable for assignment 4.
+This project is for educational purposes as part of EECE 439 coursework.
